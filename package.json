@@ -1,0 +1,22 @@
+{
+  "name": "comps-test",
+  "version": "1.0.0",
+  "description": "test share comps",
+  "main": "build/index.js",
+  "repository": "https://git.daimler.com/JEHEIDL/comp-test.git",
+  "author": "jeheidl <jens.heidl@daimler.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "scripts": {
+    "build": "babel src -d build",
+    "prepare": "yarn run build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-env": "^7.15.6"
+  }
+}

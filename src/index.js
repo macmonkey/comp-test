@@ -1,1 +1,2 @@
-export {default as SomeTestComp} from './SomeTestComp';
+export {SomeTestComp} from './SomeTestComp';
+export {SomeOther} from './SomeOther';

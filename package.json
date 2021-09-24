@@ -1,5 +1,5 @@
 {
-  "name": "comps-test",
+  "name": "@alice/comps-test",
   "version": "1.0.0",
   "description": "test share comps",
   "main": "build/index.js",
